@@ -13,7 +13,6 @@ $(document).ready(function(){
     setInterval(update, 1000);
 });
 
-/* $('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
+$('#modal-form').on('shown.bs.modal', function () {
+    $('#openFormBtn').trigger('focus')
   })
- */
