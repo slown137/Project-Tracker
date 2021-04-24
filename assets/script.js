@@ -12,7 +12,3 @@ $(document).ready(function(){
     update();
     setInterval(update, 1000);
 });
-
-$('#modal-form').on('shown.bs.modal', function () {
-    $('#openFormBtn').trigger('focus')
-  })

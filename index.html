@@ -19,10 +19,10 @@
             <div class="card-body">
               <h5 class="card-title">This is a project tracker!</h5>
               <p class="card-text">Press the button below and a form will show, enter your project information.</p>
-              <a href="#" class="btn btn-primary" id="openFormBtn" type="button" data-toggle="modal" data-target="#modal-form">Open Form</a>
+              <Button class="btn btn-primary" type="button" data-toggle="modal" data-target="#modal-form">Open Form</Button>
             </div>
         </div>
-        <div class="modal" id="modal-form" tabindex="-1" aria-labelledby="modalFormLabel" aria-hidden="true">
+        <div class="hidden modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="modalFormLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -32,7 +32,7 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+ <!--                 add form -->
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
